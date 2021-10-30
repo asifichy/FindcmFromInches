@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+const float oneInchIncm = 2.54;
+
+int main()
+{
+    int length;
+
+    printf("Enter length in inches: ");
+    scanf("%d", &length);
+
+    float cm = length*oneInchIncm;
+
+    printf("The length of a book in inch scale is: %.2f cm ", cm);
+
+    return 0;
+}
